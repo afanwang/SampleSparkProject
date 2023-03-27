@@ -1,4 +1,4 @@
-package com.company.bi.export.elasticsearch
+package com.bi.export.elasticsearch
 
 /**
  * Chain info

@@ -1,4 +1,4 @@
-package com.company.bi.export
+package com.bi.export
 
 /**
  * Venue Info object representation for the AdminService Call

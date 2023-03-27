@@ -1,4 +1,4 @@
-package com.company.bi.events
+package com.bi.events
 
 
 import org.joda.time._

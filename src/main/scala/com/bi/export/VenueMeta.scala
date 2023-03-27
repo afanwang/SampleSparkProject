@@ -1,7 +1,7 @@
-package com.company.bi.export.elasticsearch
+package com.bi.export.elasticsearch
 
-import com.company.bi.export._
-import com.company.bi.export.elasticsearch.processor._
+import com.bi.export._
+import com.bi.export.elasticsearch.processor._
 
 
 /**

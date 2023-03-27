@@ -1,9 +1,9 @@
-package com.company.bi.export.elasticsearch.processor
+package com.bi.export.elasticsearch.processor
 
 import com.github.nscala_time.time.Imports._
-import com.company.bi.events._
-import com.company.bi.export.elasticsearch._
-import com.company.bi.migration.processor._
+import com.bi.events._
+import com.bi.export.elasticsearch._
+import com.bi.migration.processor._
 import org.joda.time.format._
 
 /**

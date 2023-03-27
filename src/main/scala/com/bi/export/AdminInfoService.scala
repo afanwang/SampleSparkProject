@@ -1,8 +1,8 @@
-package com.company.bi.export.elasticsearch.processor
+package com.bi.export.elasticsearch.processor
 
-import com.company.bi.export._
-import com.company.bi.export.elasticsearch._
-import com.company.bi.migration.config._
+import com.bi.export._
+import com.bi.export.elasticsearch._
+import com.bi.migration.config._
 import grizzled.slf4j._
 import org.apache.http.client.methods._
 import org.apache.http.impl.client._

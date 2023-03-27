@@ -1,11 +1,11 @@
-package com.company.bi.export.elasticsearch
+package com.bi.export.elasticsearch
 
-import com.company.bi.events._
-import com.company.bi.export.elasticsearch.processor._
-import com.company.bi.migration._
-import com.company.bi.migration.config.{ElasticSearchConfig, ApplicationConfig}
-import com.company.bi.persist._
-import com.company.bi.util._
+import com.bi.events._
+import com.bi.export.elasticsearch.processor._
+import com.bi.migration._
+import com.bi.migration.config.{ElasticSearchConfig, ApplicationConfig}
+import com.bi.persist._
+import com.bi.util._
 import com.typesafe.config.{Config, ConfigFactory}
 import org.elasticsearch.client.transport.TransportClient
 import org.elasticsearch.common.transport.InetSocketTransportAddress

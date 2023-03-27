@@ -1,12 +1,12 @@
-package com.company.bi.persist
+package com.bi.persist
 
 import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._
 
 
-import com.company.bi.events._
-import com.company.bi.migration.config._
-import com.company.bi.util._
+import com.bi.events._
+import com.bi.migration.config._
+import com.bi.util._
 import org.apache.hadoop.conf._
 import org.apache.hadoop.mapreduce._
 import org.apache.spark.rdd._

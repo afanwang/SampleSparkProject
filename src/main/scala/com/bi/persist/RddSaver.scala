@@ -1,11 +1,11 @@
-package com.company.bi.persist
+package com.bi.persist
 
 import com.datastax.spark.connector._
 import com.datastax.spark.connector.cql._
 import com.datastax.spark.connector.writer._
-import com.company.bi.events._
-import com.company.bi.migration.config._
-import com.company.bi.util._
+import com.bi.events._
+import com.bi.migration.config._
+import com.bi.util._
 import org.apache.spark.rdd._
 import org.elasticsearch.action.bulk._
 import org.elasticsearch.client.transport._

@@ -1,4 +1,4 @@
-package com.company.bi.events.payloads
+package com.bi.events.payloads
 
 /**
  * Session Event Payload.
