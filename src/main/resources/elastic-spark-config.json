@@ -1,0 +1,27 @@
+{
+    "source": {
+        "sourceType": "Cassandra",
+        "host": "20.20.2.193",
+        "port": "9042",
+        "rpcPort": "9160",
+        "keyspace": "dataanalytics",
+        "columnfamily": "device_events",
+        "inputPageRowSize": 1000,
+        "inputSplitSize": 50000,
+        "batchSize": "4"        
+    },
+    "target": {
+        "sourceType": "elasticsearch",
+        "host": "20.20.2.193",
+        "indexName": "qa3-chain",
+        "indexType": "device-events"
+    },
+    "processingOpts": {
+        "webAdminWS": "https://qa-web.company/web-ui/api/internal/info/",
+        "venueMap": {},
+        "venueToProcess": [],
+        "sparkMaster": "local[1]",
+        "startdate": "2014-08-30",
+        "enddate": "2014-09-30"
+    }
+}
